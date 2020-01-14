@@ -1,0 +1,15 @@
+body { font-family: Arial, Helvetica, sans-serif; }
+.container {
+  display: grid;  
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(4, 100px);
+  grid-gap: 5px;
+  height: 100vh;
+  justify-content: space-between;
+  align-content: space-evenly;
+}
+.item {
+  background-color: coral;
+  border: 1px solid slateblue;
+  padding: 10px;
+}
